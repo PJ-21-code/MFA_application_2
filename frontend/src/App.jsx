@@ -1,5 +1,6 @@
 import React from 'react';
 import keycloak from './keycloak';
+import Dashboard from './pages/Dashboard/Dashboard';
 
 const App= ()=> {
   
@@ -33,6 +34,7 @@ const App= ()=> {
       >
         Logout
       </button>
+      <Dashboard />
     </div>
   );
 }
