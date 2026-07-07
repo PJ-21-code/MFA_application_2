@@ -1,4 +1,3 @@
-import React from 'react';
 import keycloak from './keycloak';
 import Dashboard from './pages/Dashboard/Dashboard';
 
